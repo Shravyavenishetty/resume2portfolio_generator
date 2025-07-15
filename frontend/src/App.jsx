@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import Hero from './components/Hero';
-import HowItWorks from './components/HowItWorks';
-import TemplateShowcase from './components/TemplateShowcase';
-import PortfolioEditor from './components/PortfolioEditor';
-import './index.css';
+import Hero from '../components/Hero';
+import HowItWorks from '../components/HowItWorks';
+import TemplateShowcase from '../components/TemplateShowcase';
+import PortfolioEditor from '../components/PortfolioEditor';
 
-function App() {
+export default function Home() {
   const [file, setFile] = useState(null);
   const [parsedData, setParsedData] = useState(null);
   const [selectedTemplate, setSelectedTemplate] = useState('classic');
@@ -178,5 +177,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
