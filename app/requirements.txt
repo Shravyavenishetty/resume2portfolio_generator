@@ -1,0 +1,5 @@
+streamlit==1.39.0
+pdfminer.six==20231228
+python-dotenv==1.0.1
+PyGithub==2.4.0
+requests==2.32.3
