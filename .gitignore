@@ -1,3 +1,2 @@
 venv
-frontend/.env.local
-backend/.env
+app/.env
